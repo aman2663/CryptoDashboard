@@ -1,1 +1,1 @@
-(live)[https://crypto-dashboard-sandy.vercel.app/]
+[live](https://crypto-dashboard-sandy.vercel.app/)
