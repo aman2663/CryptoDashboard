@@ -1,6 +1,6 @@
 .grid-box {
   width: 180px;
-  height: 200px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -49,6 +49,8 @@
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--green);
+  min-width: 50px;
+  text-align: center;
 }
 
 .coin-chip:hover {
@@ -117,6 +119,20 @@
 
 @media only screen and (max-width: 800px) {
   .grid-box {
-    width: 100% !important;
+    padding: 1.5rem;
+  }
+
+  .coin-chip {
+    min-width: 0px;
+    padding: 0.25rem 0.5rem;
+    border-width: 1px;
+  }
+  .icon {
+    border-width: 1px;
+    padding: 0.25rem;
+    font-size: 100% !important;
+  }
+  .chip-flex {
+    gap: 0.5rem;
   }
 }
